@@ -62,9 +62,9 @@
 
 .secondBox {
     width: 100%;
-    height: 80%;
+    height: 60%;
     /* background-color: rgb(21, 113, 195); */
-    display: flex;
+    /* display: flex; */
 }
 
 .content {
@@ -84,10 +84,38 @@
     flex-direction: column;
 }
 
-.hackerImage{
+.hackerImage {
     width: 40vw;
     /* height: 100%; */
     height: 75vh;
     margin-bottom: -10px;
     margin-left: -20px;
 }
+
+.thirdBox {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.copyRightMessage {
+    padding: 10px;
+}
+
+@keyframes flowingGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.fontGradient {
+    background: linear-gradient(90deg, #0D6EFD, #6610F2, #D63384, #20C997, #0DCAF0);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: flowingGradient 10s linear infinite;
+}
+

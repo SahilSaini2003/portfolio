@@ -4,7 +4,6 @@ import styles from './home.module.css'
 
 const home = () => {
 
-
     useEffect(() => {
 
         let ring1Angle = 180, ring2Angle = 180, ring3Angle = 180;
@@ -56,12 +55,23 @@ const home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.secondBox}>
-                            <div className={styles.content}>
-
+                        <div className={`${styles.secondBox} flex flex-direction-column justify-content-center`}>
+                            <div className={`bona-nova-sc-regular-italic font-size-4em`}>
+                                👋 Welcome!
                             </div>
-                            <div className={styles.hackerImageBox}>
-                            <Image src="/jokerHome.png" className={styles.hackerImage} alt="Image" width={300} height={300} />
+                            <div className={`flex align-item-center`}>
+                                <div className={`rokkitt-italic font-size-2em`}>I’m</div>&nbsp;<div className={`${styles.fontGradient} font-size-3em gupter-bold`}>Sahil Saini</div>
+                            </div>
+                            <div className={`flex align-item-center`}>
+                                <div className={`font-size-2em gupter-medium`}>A Full Stack Web and App Developer</div>
+                            </div>
+                            <div className="rokkitt-italic font-size-20px">
+                                I thrive on creating ⚡ dynamic and 🌐 responsive applications that bridge the gap between 🎨 innovative front-end experiences and 🔧 powerful back-end solutions.<br/>Let’s build something exceptional together! 🚀
+                            </div>
+                        </div>
+                        <div className={styles.thirdBox}>
+                            <div className={styles.copyRightMessage}>
+                                ©2024 Sahil’s Dev Lab
                             </div>
                         </div>
 

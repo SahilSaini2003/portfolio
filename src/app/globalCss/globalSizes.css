@@ -1,0 +1,31 @@
+/* Font Sizes EM */
+.font-size-5em {
+    font-size: 5em;
+}
+
+.font-size-4em {
+    font-size: 4em;
+}
+
+.font-size-3em {
+    font-size: 3em;
+}
+
+.font-size-2em {
+    font-size: 2em;
+}
+
+.font-size-1em {
+    font-size: 1em;
+}
+
+/* Font Size Pixel */
+.font-size-20px {
+    font-size: 20px;
+}
+
+
+/* Padding Left Pixel */
+.padding-left-35px {
+    padding-left: 35px;
+}
